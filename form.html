@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HOME</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="3.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="4.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+            <img src="1.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="5.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="6.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="7.jpg" style="width:100%">
+          </div>
+        </div>
+    </div>
+
+    <div class="regestrarion">
+        <form onsubmit="validate()"> 
+            <div class="reg" >
+                <input class="box" type="text" placeholder="Full name" id="name" maxlength="13" minlength="5" >
+                <input class="box" type="email" placeholder="Email / Phone" id="mail" >
+                <input class="box" type="text" placeholder="Driver license" id="license" maxlength="10" minlength="8" >
+                <input class="box" type="date" placeholder="Pick up date" id="date1" >
+                <select class="box" id="location" >
+                    <option value="" disabled selected hidden>pickup location</option>
+                    <option>Addis Ababa</option>
+                    <option>Afar</option>
+                    <option>Amhara</option>
+                    <option>Benishangul-Gumuz</option>
+                    <option>Gambella</option>
+                    <option>Harar</option>
+                    <option>Oromia</option>
+                    <option>Somali</option>
+                    <option>SNNPNRS</option>
+                    <option>Tigray</option>
+                    <option>Dire Dawa</option>
+                    <option>Sidama</option>
+                </select>
+                <input class="box" type="date" placeholder="Return date" >                       
+                <select class="box" id="location">
+                    <option value="" disabled selected hidden>Return location</option>
+                    <option>Addis Ababa</option>
+                    <option>Afar</option>
+                    <option>Amhara</option>
+                    <option>Benishangul-Gumuz</option>
+                    <option>Gambella</option>
+                    <option>Harar</option>
+                    <option>Oromia</option>
+                    <option>Somali</option>
+                    <option>SNNPNRS</option>
+                    <option>Tigray</option>
+                    <option>Dire Dawa</option>
+                    <option>Sidama</option>
+                </select>
+                
+            </div>
+            <input type="submit" value="Register" class="btn" onsubmit="validate()">
+        </form>
+    </div>
+        
+        <script src="scrip.js"></script>
+        
+</body>
+</html>

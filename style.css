@@ -1,0 +1,263 @@
+* {box-sizing: border-box}
+.element {
+    height: 100vh;
+  }
+body {
+    font-family: Verdana, sans-serif; 
+    margin:0;
+    height: 100vh;
+}
+
+.mySlides {
+  color: #48e261;
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: relative;
+      overflow: hidden;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  color: #48e261;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Caption text */
+.text {
+  font-size: 50px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+.navigation_bar{
+    top: -50px;
+    padding: 0px;
+    width: 100%;
+    position: absolute;
+    padding: auto;
+    background-color: aliceblue;
+}
+.logo{
+    color: rgb(135, 240, 231);
+    width: 200px;
+    height: 80px;
+    float: left;
+    margin-top: -50px;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.menu{
+    padding-right: 80px;
+    padding-top: 15px;
+    color: rgb(240, 149, 31);
+    font-size: 40px;
+     font-family: Impact;
+     width: 100%;
+     
+}
+ul{
+    justify-content: center;
+    float: center;
+    display: flex;
+    align-content: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 15px;
+    
+}
+ul li a{
+    color: rgb(39, 45, 104);
+    font-size: 35px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+ul li a:hover{
+    color: #f1430e;
+}
+.regestrarion{
+    width: 60%;
+    height: 70%;
+    background: linear-gradient(to top, rgba(36, 34, 56, 0.8)50%,rgba(36, 34, 56, 0.8)50%);
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    border-radius: 10px;
+    padding: 25px;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+}
+.box{
+    color: #8f8f8d;
+    width: 100%;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+    padding-left: 15px;
+    background: transparent;
+    border-color: beige;
+    font-size: 20px;
+    left: 10%;
+}
+
+.sign{
+    color: rgb(5, 35, 61);
+    background: linear-gradient(to top, rgba(189, 184, 235, 0.8)50%,rgba(189, 184, 235, 0.8)50%);
+    margin-left: 100px;
+    margin-top: 180px;
+    top: 1000px;
+    right: 100px;
+    width: 850px;
+    height: 300px;
+    font-size: 20px;
+    font-family: 'Arial Narrow';
+    text-decoration: none;
+    text-align: center;
+    text-indent: 10px;
+    padding-left: 0;
+    font-weight: bold;
+}
+h3{
+    color: rgb(17, 27, 83);
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: Impact;
+    font-size: 40px;
+}
+#subscribe{
+    color: black;
+    align-content: center;
+    padding-top: 0px;
+    
+}
+.btn{
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+}
+#signup{
+    margin-top: 60px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: rgb(33, 14, 68);
+    align-content: center;
+}
+#signup :hover{
+    border-radius: 50px;
+    border-color: rgb(255, 0, 0);
+    font-size: 45px;
+    color: #f1430e;
+}
+.text{
+    color: aliceblue;
+    
+}
+
+.ctn{
+  color: rgb(144, 169, 224);
+  position: absolute;
+  top: 60%;
+  width: 400px;
+  border-radius: 50px;
+  background-color: orange;
+  left: 37%;
+  font-size: 45px;
+  font-family: Garamond;
+  font-weight: bold;
+  background: transparent;
+  border-color: azure;
+  padding-left: 10px;
+  text-decoration: none;
+}
+.get_started, a{
+  color: rgb(144, 169, 224);
+  text-decoration: none;
+}
+
+.content{
+  color: rgb(10, 24, 33);
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  float: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+#rent{
+  color: rgb(144, 169, 224);
+  position: absolute;
+  top: 60%;
+  width: 400px;
+  border-radius: 50px;
+  background-color: orange;
+  left: 60%;
+  font-size: 50px;
+  font-family: Garamond;
+  font-weight: bold;
+  background: transparent;
+  border-color: azure;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+#c{
+  d
+}
+#buy{
+  color: rgb(25, 35, 56);
+  position: absolute;
+  top: 60%;
+  width: 400px;
+  border-radius: 50px;
+  background-color: orange;
+  left: 20%;
+  font-size: 50px;
+  font-family: Garamond;
+  font-weight: bold;
+  background: transparent;
+  border-color: rgb(9, 217, 217);
+  padding-left: 10px;
+  text-decoration: none;
+}
